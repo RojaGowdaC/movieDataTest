@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Movie_DataTest">
+    <listeners>
+        <listener class-name="com.listeners.ListenerForTest"></listener>
+    </listeners>
+    <test name="Movie_CountryName_and_ReleaseDate_test">
+        <classes>
+            <class name="com.data.tests.ImdbDataTest"></class>
+            <class name="com.data.tests.WikipediaDataTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="Common_data_existence_test">
+        <classes>
+            <class name="com.data.tests.CommonDataExistenceTest"></class>
+        </classes>
+    </test>
+
+</suite>
