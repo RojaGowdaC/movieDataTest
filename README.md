@@ -1,4 +1,4 @@
-# movieDataTest
+# movieDataValidationTest
 Movie data test project
 
 Steps to run the project :
